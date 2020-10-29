@@ -2,7 +2,7 @@
 
 ## Description
 
-LRU Cache
+``LRU Cache
 An in memory cache implementation that expires the least recently used items, and limits cache size by a maximum number of items.
 API
 A cache object can be instantiated in memory. It requires the max number of records as an argument:
@@ -23,7 +23,7 @@ T0: cache.write('a', 1)
 T1: cache.write('b', 2)
 T3: cache.read('a') -> 1
 T4: cache.write('c', 3)
-T5: cache.write('d', 4) (removes 'b', 2)
+T5: cache.write('d', 4) (removes 'b', 2)``
 
 ## TODO LIST
 
